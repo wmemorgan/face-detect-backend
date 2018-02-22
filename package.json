@@ -1,0 +1,21 @@
+{
+  "name": "smart-brain-api",
+  "version": "1.0.0",
+  "description": "API server for Smart Brain app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Wilfred Morgan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "clarifai": "^2.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "knex": "^0.14.3",
+    "nodemon": "^1.14.12",
+    "pg": "^7.4.1"
+  }
+}
